@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url("/fonts/Poppins/Poppinsregular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url("/fonts/Poppins/Poppinspoppins-boldsemibold.ttf") format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url("/fonts/Poppins/Poppins-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url("/fonts/Poppins/Poppinsbold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather Regular';
+    src: url("/fonts/Merriweather/Merriweather-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Merriweather Bold';
+    src: url("/fonts/Merriweather/Merriweather-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+button:active{
+    outline: none;
+}
+button:focus, input:focus, textarea:focus{
+    outline: none;
+}
+body {
+    margin: 0;
+    font-family: "Poppins Regular";
+}
