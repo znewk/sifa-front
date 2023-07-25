@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../src/components/Header";
 import MiradouroHillsIntro from "../src/components/ MiradouroHillsIntro";
+import WhoWeAre from "../src/components/WhoWeAre";
 
 const Index = () => {
     return (
@@ -12,6 +13,7 @@ const Index = () => {
             <Header/>
 
             <MiradouroHillsIntro/>
+            <WhoWeAre/>
         </div>
     )
 }
