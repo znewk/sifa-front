@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../src/components/Header";
 import MiradouroHillsIntro from "../src/components/ MiradouroHillsIntro";
 import WhoWeAre from "../src/components/WhoWeAre";
+import PopularProjects from "../src/components/PopularProjects";
 
 const Index = () => {
     return (
@@ -13,6 +14,7 @@ const Index = () => {
             <Header/>
 
             <MiradouroHillsIntro/>
+            <PopularProjects/>
             <WhoWeAre/>
         </div>
     )
