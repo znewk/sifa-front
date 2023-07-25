@@ -37,3 +37,27 @@
     cursor: grab;
     margin-top: 25px;
 }
+
+.button{
+    color: #1C3988;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #1C3988;
+    cursor: pointer;
+    font-family: "Poppins Regular";
+    transition: 0.3s;
+}
+.button:active{
+    background-color: #141B2D;
+}
+.button:hover{
+    background-color: #1C3988;
+    color: white;
+}
+
+.titleBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

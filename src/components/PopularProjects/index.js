@@ -15,8 +15,12 @@ const PopularProjects = () => {
     return (
         <div className={styles.container}>
             <div className={styles.titleBlock}>
-                <h2 className={styles.title}>Popular projects</h2>
-                <p className={styles.subtitle}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/> Dolore eligendi molestiae odio sunt unde velit.</p>
+                <div>
+                    <h2 className={styles.title}>Popular projects</h2>
+                    <p className={styles.subtitle}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/> Dolore eligendi molestiae odio sunt unde velit.</p>
+                </div>
+                <button className={styles.button}>Show all projects</button>
+
             </div>
 
             <div className={styles.hr}></div>
